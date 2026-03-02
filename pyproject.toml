@@ -1,0 +1,37 @@
+[project]
+name = "fcp-slides"
+version = "0.1.0"
+description = "Presentation File Context Protocol — semantic slide operations for LLMs"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "fcp-core>=0.1.14",
+    "fastmcp>=3.0",
+    "python-pptx>=1.0",
+]
+
+# [tool.uv.sources]
+# For local development, uncomment below:
+# fcp-core = { path = "../fcp-core/python", editable = true }
+
+[project.scripts]
+fcp-slides = "fcp_slides.main:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+    "pyright>=1.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fcp_slides"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+src = ["src"]
