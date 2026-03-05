@@ -1,0 +1,11 @@
+{
+  "name": "fcp-slides",
+  "description": "Create and edit PowerPoint presentations through semantic commands",
+  "version": "0.1.2",
+  "license": "MIT",
+  "author": {
+    "name": "Scott Meyer"
+  },
+  "repository": "https://github.com/aetherwing-io/fcp-slides",
+  "keywords": ["slides", "powerpoint", "pptx", "presentations", "mcp"]
+}

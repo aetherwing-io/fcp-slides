@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "slides": {
+      "command": "uvx",
+      "args": ["--refresh-package", "fcp-slides", "--python", "3.13", "fcp-slides"]
+    }
+  }
+}
