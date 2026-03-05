@@ -15,6 +15,7 @@ mcp = create_fcp_server(
     adapter=adapter,
     verbs=VERBS,
     extra_sections=EXTRA_SECTIONS,
+    extensions=["pptx", "ppt", "odp"],
     name="slides-fcp",
     instructions="Presentation File Context Protocol. Call slides_help for the reference card.",
 )

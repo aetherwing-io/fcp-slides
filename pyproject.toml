@@ -1,22 +1,22 @@
 [project]
 name = "fcp-slides"
-version = "0.1.0"
+version = "0.1.1"
 description = "Presentation File Context Protocol — semantic slide operations for LLMs"
 requires-python = ">=3.11,<3.14"
 dependencies = [
-    "fcp-core>=0.1.16",
+    "fcp-core>=0.1.17",
     "fastmcp>=3.0",
     "python-pptx>=1.0",
 ]
 
 # [tool.uv.sources]
-# For local development, uncomment below:
+# For local development, use `make link-py` instead of uncommenting:
 # fcp-core = { path = "../fcp-core/python", editable = true }
 
 [project.scripts]
 fcp-slides = "fcp_slides.main:main"
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
     "pytest>=8.0",
     "ruff>=0.4",
