@@ -16,8 +16,8 @@ mcp = create_fcp_server(
     verbs=VERBS,
     extra_sections=EXTRA_SECTIONS,
     extensions=["pptx", "ppt", "odp"],
-    name="slides-fcp",
-    instructions="Presentation File Context Protocol. Call slides_help for the reference card.",
+    name="fcp-slides",
+    instructions="FCP Slides server for creating and editing presentation files (pptx). Use slides_session to create a new presentation or open an existing file, slides to add slides, shapes, text, and images, slides_query to inspect slide contents and layout, and slides_help for the full verb reference. Start every interaction with slides_session.",
 )
 
 
