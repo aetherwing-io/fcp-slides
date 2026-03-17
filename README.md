@@ -4,7 +4,7 @@ MCP server for semantic presentation operations.
 
 ## What It Does
 
-fcp-slides lets LLMs create and edit PowerPoint presentations by describing slide intent -- layouts, shapes, tables, charts, text styling -- and renders it into standard `.pptx` files. Instead of writing python-pptx code, the LLM works with operations like `slide add layout:title`, `placeholder set title "Q4 Report"`, and `table add 5 4 label:metrics`. Built on the [FCP](https://github.com/aetherwing-io/fcp) framework, powered by python-pptx for serialization.
+fcp-slides lets LLMs create and edit PowerPoint presentations by describing slide intent -- layouts, shapes, tables, charts, text styling -- and renders it into standard `.pptx` files. Instead of writing python-pptx code, the LLM works with operations like `slide add layout:title`, `placeholder set title "Q4 Report"`, and `table add 5 4 label:metrics`. Built on the [FCP](https://github.com/os-tack/fcp) framework, powered by python-pptx for serialization.
 
 ## Quick Example
 
