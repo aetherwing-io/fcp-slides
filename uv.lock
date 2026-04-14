@@ -328,14 +328,14 @@ wheels = [
 
 [[package]]
 name = "fcp-core"
-version = "0.1.18"
+version = "0.1.20"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "mcp" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b3/97/44453f2fe4a9969a2ce683846a650dbb9085932ad1d8828720bcffa1d1ec/fcp_core-0.1.18.tar.gz", hash = "sha256:ee3d90323bffcc5693ebe1cd7ae8f1b9f8244e25a6728ba59e1859610b7eb340", size = 49363, upload-time = "2026-03-06T20:58:02.915Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/6b/eb/532118466b401c1b15079cede7cd3e6f9f43f716041466f6a7a1d170b99b/fcp_core-0.1.20.tar.gz", hash = "sha256:93a508f2581df37711a9666348f47c8573f5ba28e2c90701fe202e7281b7b889", size = 49363, upload-time = "2026-04-11T01:43:52.572Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/99/74/6f3d32614db38b82630a012440037c9d1782135e5c7b13e5cdf33d4df771/fcp_core-0.1.18-py3-none-any.whl", hash = "sha256:c1296b3ed1185692c0fa824e5d8edfd75cdc32ce8be18a175eaa2dfa0b66954e", size = 16932, upload-time = "2026-03-06T20:58:01.626Z" },
+    { url = "https://files.pythonhosted.org/packages/e5/9e/f3b59ae1dd3deae7dc3789100d08ba1a2bac37d169c33fb35dc74674918b/fcp_core-0.1.20-py3-none-any.whl", hash = "sha256:876ff9429a10870bd08f9c442be482d5a59cc4d40de05d23b64d73c4376f4aeb", size = 16928, upload-time = "2026-04-11T01:43:51.34Z" },
 ]
 
 [[package]]
@@ -358,7 +358,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "fastmcp", specifier = ">=3.0" },
-    { name = "fcp-core", specifier = ">=0.1.18" },
+    { name = "fcp-core", specifier = ">=0.1.20" },
     { name = "python-pptx", specifier = ">=1.0" },
 ]
 
